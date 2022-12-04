@@ -21,8 +21,8 @@
 									"    \"brandId\": 1,",
 									"    \"productId\": 35455,",
 									"    \"priceList\": 1,",
-									"    \"startDate\": \"2020-06-14-00.00.00\",",
-									"    \"endDate\": \"2020-12-31-23.59.59\",",
+									"    \"starDate\": \"2020-06-14T00:00:00\",",
+									"    \"endDate\": \"2020-12-31T23:59:59\",",
 									"    \"price\": 35.50",
 									"}",
 									"",
@@ -48,7 +48,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"brandId\": 1,\n    \"productId\": 35455,\n    \"applicationDate\": \"2020-06-14-10.00.00\"\n}",
+							"raw": "{\n    \"brandId\": 1,\n    \"productId\": 35455,\n    \"date\": \"2020-06-14-10.00.00\"\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -56,14 +56,14 @@
 							}
 						},
 						"url": {
-							"raw": "{{baseURL}}api/v1/prices",
+							"raw": "{{baseURL}}/api/v1/prices",
 							"host": [
 								"{{baseURL}}"
 							],
 							"path": [
-                "api",
-                "v1",
-                "prices"
+								"api",
+								"v1",
+								"prices"
 							]
 						}
 					},
@@ -82,8 +82,8 @@
 									"    \"brandId\": 1,",
 									"    \"productId\": 35455,",
 									"    \"priceList\": 2,",
-									"    \"startDate\": \"2020-06-14-15.00.00\",",
-									"    \"endDate\": \"2020-06-14-18.30.00\",",
+									"    \"starDate\": \"2020-06-14T15:00:00\",",
+									"    \"endDate\": \"2020-06-14T18:30:00\",",
 									"    \"price\": 25.45",
 									"}",
 									"",
@@ -109,7 +109,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"brandId\": 1,\n    \"productId\": 35455,\n    \"applicationDate\": \"2020-06-14-16.00.00\"\n}",
+							"raw": "{\n    \"brandId\": 1,\n    \"productId\": 35455,\n    \"date\": \"2020-06-14-16.00.00\"\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -143,8 +143,8 @@
 									"    \"brandId\": 1,",
 									"    \"productId\": 35455,",
 									"    \"priceList\": 1,",
-									"    \"startDate\": \"2020-06-14-00.00.00\",",
-									"    \"endDate\": \"2020-12-31-23.59.59\",",
+									"    \"starDate\": \"2020-06-14T00:00:00\",",
+									"    \"endDate\": \"2020-12-31T23:59:59\",",
 									"    \"price\": 35.50",
 									"}",
 									"",
@@ -170,7 +170,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"brandId\": 1,\n    \"productId\": 35455,\n    \"applicationDate\": \"2020-06-14-21.00.00\"\n}",
+							"raw": "{\n    \"brandId\": 1,\n    \"productId\": 35455,\n    \"date\": \"2020-06-14-21.00.00\"\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -204,8 +204,8 @@
 									"    \"brandId\": 1,",
 									"    \"productId\": 35455,",
 									"    \"priceList\": 3,",
-									"    \"startDate\": \"2020-06-15-00.00.00\",",
-									"    \"endDate\": \"2020-06-15-11.00.00\",",
+									"    \"starDate\": \"2020-06-15T00:00:00\",",
+									"    \"endDate\": \"2020-06-15T11:00:00\",",
 									"    \"price\": 30.50",
 									"}",
 									"",
@@ -231,7 +231,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"brandId\": 1,\n    \"productId\": 35455,\n    \"applicationDate\": \"2020-06-15-10.00.00\"\n}",
+							"raw": "{\n    \"brandId\": 1,\n    \"productId\": 35455,\n    \"date\": \"2020-06-15-10.00.00\"\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -265,8 +265,8 @@
 									"    \"brandId\": 1,",
 									"    \"productId\": 35455,",
 									"    \"priceList\": 4,",
-									"    \"startDate\": \"2020-06-15-16.00.00\",",
-									"    \"endDate\": \"2020-12-31-23.59.59\",",
+									"    \"starDate\": \"2020-06-15T16:00:00\",",
+									"    \"endDate\": \"2020-12-31T23:59:59\",",
 									"    \"price\": 38.95",
 									"}",
 									"",
@@ -292,7 +292,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"brandId\": 1,\n    \"productId\": 35455,\n    \"applicationDate\": \"2020-06-15-21.00.00\"\n}",
+							"raw": "{\n    \"brandId\": 1,\n    \"productId\": 35455,\n    \"date\": \"2020-06-15-21.00.00\"\n}",
 							"options": {
 								"raw": {
 									"language": "json"

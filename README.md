@@ -15,6 +15,9 @@ I have decided to use objectmothers as a best practice to run a battery of param
 receiving the input and the output I want to test. 
 To test this I used MvcMock.
 
+I have also created a directory called postman with the corresponding collections and environment.
+In a complementary way I have implemented the tests in the postman test section.
+
 ## To run application
 First build with:
 ```
