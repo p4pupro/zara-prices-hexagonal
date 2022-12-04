@@ -1,0 +1,319 @@
+{
+	"info": {
+		"_postman_id": "ca295299-ed59-40db-9345-9a431ecc3e7b",
+		"name": "prices",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GET_PRICE",
+			"item": [
+				{
+					"name": "GET_brandId1_productId35455_date2020-06-14-10.00.00",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"const expectedStatus = 200;",
+									"",
+									"const expectedJson = {",
+									"    \"brandId\": 1,",
+									"    \"productId\": 35455,",
+									"    \"priceList\": 1,",
+									"    \"startDate\": \"2020-06-14-00.00.00\",",
+									"    \"endDate\": \"2020-12-31-23.59.59\",",
+									"    \"price\": 35.50",
+									"}",
+									"",
+									"pm.test(\"Response status: \" + expectedStatus, function () {",
+									"    pm.response.to.have.status(expectedStatus);",
+									"});",
+									"",
+									"pm.test(\"Response body\", function () {",
+									"    pm.response.to.be.json;",
+									"    const responseJson = pm.response.json();",
+									"    pm.expect(expectedJson).to.eql(responseJson);",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"brandId\": 1,\n    \"productId\": 35455,\n    \"applicationDate\": \"2020-06-14-10.00.00\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}api/v1/prices",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+                "api",
+                "v1",
+                "prices"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET_brandId1_productId35455_date2020-06-14-16.00.00",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"const expectedStatus = 200;",
+									"",
+									"const expectedJson = {",
+									"    \"brandId\": 1,",
+									"    \"productId\": 35455,",
+									"    \"priceList\": 2,",
+									"    \"startDate\": \"2020-06-14-15.00.00\",",
+									"    \"endDate\": \"2020-06-14-18.30.00\",",
+									"    \"price\": 25.45",
+									"}",
+									"",
+									"pm.test(\"Response status: \" + expectedStatus, function ()  {",
+									"    pm.response.to.have.status(expectedStatus);",
+									"});",
+									"",
+									"pm.test(\"Response Body\", function () {",
+									"    pm.response.to.be.json;",
+									"    const responseJson = pm.response.json();",
+									"    pm.expect(expectedJson).to.eql(responseJson);",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"brandId\": 1,\n    \"productId\": 35455,\n    \"applicationDate\": \"2020-06-14-16.00.00\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}/api/v1/prices",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET_brandId1_productId35455_date2020-06-14-21.00.00",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"const expectedStatus = 200;",
+									"",
+									"const expectedJson = {",
+									"    \"brandId\": 1,",
+									"    \"productId\": 35455,",
+									"    \"priceList\": 1,",
+									"    \"startDate\": \"2020-06-14-00.00.00\",",
+									"    \"endDate\": \"2020-12-31-23.59.59\",",
+									"    \"price\": 35.50",
+									"}",
+									"",
+									"pm.test(\"Response status: \" + expectedStatus, function () {",
+									"    pm.response.to.have.status(expectedStatus);",
+									"});",
+									"",
+									"pm.test(\"Response Body\", function () {",
+									"    pm.response.to.be.json;",
+									"    const responseJson = pm.response.json();",
+									"    pm.expect(expectedJson).to.eql(responseJson);",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"brandId\": 1,\n    \"productId\": 35455,\n    \"applicationDate\": \"2020-06-14-21.00.00\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}/api/v1/prices",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET_brandId1_productId35455_date2020-06-15-10.00.00",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"const expectedStatus = 200;",
+									"",
+									"const expectedJson = {",
+									"    \"brandId\": 1,",
+									"    \"productId\": 35455,",
+									"    \"priceList\": 3,",
+									"    \"startDate\": \"2020-06-15-00.00.00\",",
+									"    \"endDate\": \"2020-06-15-11.00.00\",",
+									"    \"price\": 30.50",
+									"}",
+									"",
+									"pm.test(\"Response status: \" + expectedStatus, function () {",
+									"    pm.response.to.have.status(expectedStatus);",
+									"});",
+									"",
+									"pm.test(\"Response Body\", function () {",
+									"    pm.response.to.be.json;",
+									"    const responseJson = pm.response.json();",
+									"    pm.expect(expectedJson).to.eql(responseJson);",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"brandId\": 1,\n    \"productId\": 35455,\n    \"applicationDate\": \"2020-06-15-10.00.00\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}/api/v1/prices",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET_brandId1_productId35455_date2020-06-15-21.00.00",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"const expectedStatus = 200;",
+									"",
+									"const expectedJson = {",
+									"    \"brandId\": 1,",
+									"    \"productId\": 35455,",
+									"    \"priceList\": 4,",
+									"    \"startDate\": \"2020-06-15-16.00.00\",",
+									"    \"endDate\": \"2020-12-31-23.59.59\",",
+									"    \"price\": 38.95",
+									"}",
+									"",
+									"pm.test(\"Response status: \" + expectedStatus, function () {",
+									"    pm.response.to.have.status(expectedStatus);",
+									"});",
+									"",
+									"pm.test(\"Response Body\", function () {",
+									"    pm.response.to.be.json;",
+									"    const responseJson = pm.response.json();",
+									"    pm.expect(expectedJson).to.eql(responseJson);",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"brandId\": 1,\n    \"productId\": 35455,\n    \"applicationDate\": \"2020-06-15-21.00.00\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}/api/v1/prices",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
