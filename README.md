@@ -11,12 +11,17 @@ We have 4 modules (application, domain, infrastructure, objectmother) inside de 
 The main class to run app is ZaraPricesApplication.
 
 ### Design decisions:
+I decided not to introduce the CQRS pattern even though I have knowledge of it and currently work with it. 
+It added complexity and extended the test time.
+For practical purposes, the idea was to make a call to the query bus in the use case that triggers the relevant event, Delegating the responsibility to event bus.
+
 I have decided to use objectmothers as a best practice to run a battery of parameterized tests,
 receiving the input and the output I want to test. 
 To test this I used MvcMock.
 
 I have also created a directory called postman with the corresponding collections and environment.
 In a complementary way I have implemented the tests in the postman test section.
+
 
 ## To run application
 First build with:
